@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.tomoki1207.varjump.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.tomoki1207.varjump.MyBundle
 
 class MyApplicationService {
 
