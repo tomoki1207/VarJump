@@ -10,7 +10,7 @@
     <actions>
         <action id="varjump.GotoInferredTypeDeclarationAction"
                 class="tomoki1207.varjump.GotoInferredTypeDeclarationAction"
-                text="Jump to Declaration as 'var'">
+                text="VarJump: Choose a Type Declaration from 'var'">
             <keyboard-shortcut first-keystroke="control meta b" keymap="$default"/>
         </action>
     </actions>
