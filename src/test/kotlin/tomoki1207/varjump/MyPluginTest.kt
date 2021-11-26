@@ -1,4 +1,4 @@
-package com.github.tomoki1207.varjump
+package tomoki1207.varjump
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.psi.xml.XmlFile

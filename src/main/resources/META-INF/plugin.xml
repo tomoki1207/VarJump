@@ -1,18 +1,20 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.tomoki1207.varjump</id>
+    <id>tomoki1207</id>
     <name>VarJump</name>
     <vendor>tomoki1207</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <actions>
+        <action id="varjump.GotoInferredTypeDeclarationAction"
+                class="tomoki1207.varjump.GotoInferredTypeDeclarationAction"
+                text="Jump to Declaration as 'var'">
+            <keyboard-shortcut first-keystroke="control meta b" keymap="$default"/>
+        </action>
+    </actions>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.tomoki1207.varjump.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.tomoki1207.varjump.services.MyProjectService"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.tomoki1207.varjump.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
