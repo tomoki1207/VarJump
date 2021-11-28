@@ -4,9 +4,10 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/18107)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/18107)
 
+<!-- Plugin description -->
+
 > Jump to inferred generic type declared as 'var' with HotKey
 
-<!-- Plugin description -->
 ![plugin](https://user-images.githubusercontent.com/3643499/143617967-fddab990-f3d1-47d5-9bb0-a6a552ebdd72.gif)
 
 <!-- Plugin description end -->
