@@ -18,3 +18,9 @@ First release! 🎉
 ### Fixed
 
 - Change action text
+
+## [0.0.3] 2021-11-30
+
+### Added
+
+- Plugin icon
