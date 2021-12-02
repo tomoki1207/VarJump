@@ -1,8 +1,8 @@
 # VarJump
 
 ![Build](https://github.com/tomoki1207/VarJump/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/18107)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/18107)
+[![Version](https://img.shields.io/jetbrains/plugin/v/18107.svg)](https://plugins.jetbrains.com/plugin/18107)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/18107.svg)](https://plugins.jetbrains.com/plugin/18107)
 
 <!-- Plugin description -->
 
